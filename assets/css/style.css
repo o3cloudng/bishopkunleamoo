@@ -1193,6 +1193,7 @@ section .container {
   background: #15bb62;
 }
 
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1242,3 +1243,4 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
