@@ -79,7 +79,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/bishopkunleamoo.jpg" class="img-fluid img-thumbnail" alt="">
+          <img src="assets/img/bishopkunleamoo.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-7 pr-1 pb-2 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Bishop Kunle Amoo</h3>
@@ -87,10 +87,40 @@
             Author, Geoscientist, Entrepreneur and <span>Minister of God</span>
           </p>
           <p class="text-justify" style="line-height: 30px; text-align:justify; color:#AAA;">
-            A Versatile President with a demonstrated history of working in the mining & metals industry. Skilled in Oil & Gas Exploration, Exploration Management, Geosciences: Geophysics, Geochemistrty, Gold Projects, Polymetallic mineral projects, Export Finance, and Exploration Geologists. Strong business development professional with a Doctor of Philosophy - PhD focused in Counselling psychology from TBU Washington. Bachelors of Applied Geosciences and an astute entrepreneur.
+            A Versatile President with a demonstrated history of working in the mining & metalvs industry. Skilled in Oil & Gas Exploration, Exploration Management, Geosciences, Geophysics, Geochemistrty, Gold Projects, Polymetallic Mineral projects, Export Finance and Exploration Geology.  </p>
 
-            Bishop Kunle Amoo, clergy, Writer and an accomplished Geophysicist started his writing career as a reporter witht hte defunct Soccer Special, Literary/Sport Columnist with defunct Frontline News. He has contributed articles to former national newspaper including Sketch, Tribune and Third Eye. He was honored in 1995 as Nigeria's Foremost Promising and Prominent writer 1995. Bishop Amoo bagged his PhD in Counselling with Triune Bible University Washington ans he is a Bishop with Laughter Bible Church Nigeria. An astute enterpreneur and an alumni of York Education Development Institute, University of York, Canada. Bishop Amoo is the President/CEO of Best Kamco Resources. Nigeria and Canada as well as Executive Director, African Operations of Matrix Geotechnologies Canada. He is also a member of Prospectors and Developers Association Canada (PDAC), American Association of Petroleum Geologist (AAPG). He has been honoured with merit awards by Astute National bodies among others. He is an author who has passion for literature, poetry and religious articles. He is married with children 
+            <p class="text-justify" style="line-height: 30px; text-align:justify; color:#AAA;">
+              Strong business development professional with a Doctor of Philosophy (PhD) focused in Counselling Psychology from TBU Washington. Bachelors of Applied Geophysics, Diploma in Mechanical Engineering and is an astute entrepreneur. 
+            <a href="javascript:void()" id="btn-read-more">Read more...</a>
+
+            
+            <div id="more" style=" border-top:3px solid rgb(240, 102, 143); padding-top:15px; color:#AAA;">
+              <p class="text-justify" style="line-height: 30px; text-align:justify; color:#AAA;">
+                Bishop Kunle Amoo, Clergy, Writer and an accomplished Geoscientist, started his writing career as a reporter with the defunct Soccer Special, Literary/Sport Columnist with the defunct Frontline News,  all in Ibadan, Oyo State, Nigeria.</p>
+
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              He has contributed articles to former national newspapers including Sketch, Tribune and Third Eye. He was honoured in 1995 as Nigeria's Foremost Promising and Prominent writer 1995.  </p> 
+
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+            Bishop Amoo bagged his PhD in Counselling with Triune Bible University Washington, He Read Applied Geology (Geophysics Option) in  Obafemi Awolowo University Ile Ife Nigeria and graduated in 99/2000. He was also an alumni of The Polytechnics Ibadan where he bagged a National Diploma in Mechanical Engineering Technology.</p>
+
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              He is a Canonised  Bishop ordained by Triune Professional Association of  Hebrew University of East Jerusalem and he is the State Overseer of Laughter Bible Church Nigeria.  </p>
+
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              He is an astute enterpreneur and an alumni of York Education Development Institute, University of York, Canada.
             </p>
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              Bishop Amoo is the President/CEO of Best Kamco Resources. Nigeria and Canada as well as Executive Director, African Operations of Matrix Geotechnologies Canada. He is also a Director with Arma Marble Resources Ltd Nigeria and Turkey as well as the African  Director of  Jeoconsultancy Engineering Limited Turkey. He is also a member of Prospectors and Developers Association Canada (PDAC), American Association of Petroleum Geologist (AAPG). 
+            </p>
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              He has been honoured with merit awards by Astute National bodies among others. He is an author who has passion for literature, poetry, geological reports and religious articles. 
+            </p>
+            <p class="text-justify" style="line-height: 30px; text-align:justify;">
+              He is married with children.
+            </p>
+            <a href="javascript:void()" id="close">X Close</a>
+          </div>
             <!-- <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -829,9 +859,23 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    $("#more").hide();
+    /* document.getElementById("more").style.display = "none"; */
+    $("#btn-read-more").click(function () {
+      $("#more").show("fade", {}, 1000);
+      $("#btn-read-more").hide();
+    });
+    $("#close").click(function () {
+      $("#more").hide("fade", {}, 1000);
+      $("#btn-read-more").show();
+    });
+
+  </script>
 
 </body>
 
