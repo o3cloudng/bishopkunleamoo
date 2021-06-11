@@ -91,6 +91,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #ed0dbc !important;
   padding-bottom: 6px;
 }
+h5 span {
+  color: #fff;
+  border-bottom: 2px solid #ed0dbc !important;
+  padding-bottom: 6px;
+}
 
 #header img {
   padding: 0;
@@ -148,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links, #header.header-top h2, #header.header-top > p, #header.header-top h3 {
   display: none;
 }
 
@@ -1232,6 +1237,12 @@ section .container {
     text-align: center;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media (max-width: 320px) {
+  #header>.container h2:first {
+    margin-top: 10% !important;
   }
 }
 
